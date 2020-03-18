@@ -15,6 +15,7 @@ Install
 
 Run
 
+    yarn run test
     npm run test
 
 Result
