@@ -31,3 +31,5 @@ Result
     Snapshots:   0 total
     Time:        1.419s
     Ran all test suites.
+
+![](jestjs-result.png)
