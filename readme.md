@@ -7,30 +7,33 @@ https://jestjs.io/docs/en/getting-started
 
 Add
 
+    npm install --save-dev jest
     yarn add --dev jest
 
 Install
 
-    yarn i
     npm i
+    yarn i
 
 Run
 
-    yarn run test
     npm run test
+    yarn run test
 
 Result
 
-    > @ test /home/flavio/Documentos/code-node/jest-before-getting-started
     > jest
 
-    PASS  ./using-matchers.test.js
-    PASS  ./sum.test.js
+    PASS  src/mocks/__test__/foreach.test.js
+    PASS  tests/sum.test.js
+    PASS  tests/using-matchers.test.js
+    PASS  tests/asynchronous.test.js
+    PASS  src/mocks/mock-property.test.js
 
-    Test Suites: 2 passed, 2 total
-    Tests:       12 passed, 12 total
+    Test Suites: 5 passed, 5 total
+    Tests:       16 passed, 16 total
     Snapshots:   0 total
-    Time:        1.419s
+    Time:        14.066s
     Ran all test suites.
 
 ![jestjs-result](https://user-images.githubusercontent.com/1257048/86019758-61638d00-b9fd-11ea-9df3-91104ab02376.png)
