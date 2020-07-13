@@ -14,6 +14,7 @@ test('mock property', () => {
     // > [ <a>, <b> ]
 
     expect(myMock.mock.instances.length).toBe(2);
+    // expect(myMock.mock.instances).toBe([mockConstructor {}, Object {}]);
     expect(myMock.mock.instances[0]).toBeInstanceOf(myMock); // constructor: mockConstructor
     expect(myMock.mock.instances[1]).toBeInstanceOf(Object); // constructor: Object
 
