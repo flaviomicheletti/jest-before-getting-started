@@ -1,9 +1,9 @@
 ![jestjs](https://user-images.githubusercontent.com/1257048/86019741-59a3e880-b9fd-11ea-98df-ffed33906839.png)
 
-
 # Jest - Before getting started
 
-https://jestjs.io/docs/en/getting-started
+- https://jestjs.io/docs/en/getting-started
+- https://devhints.io/jest
 
 Add
 
