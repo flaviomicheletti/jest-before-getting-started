@@ -38,3 +38,6 @@ Result
 
 ![jestjs-result](https://user-images.githubusercontent.com/1257048/86019758-61638d00-b9fd-11ea-9df3-91104ab02376.png)
 
+### Todo
+
+https://github.com/sapegin/jest-cheat-sheet/blob/master/Readme.md#strings
