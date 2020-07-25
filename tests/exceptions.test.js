@@ -1,11 +1,7 @@
 //
 // https://jestjs.io/docs/en/using-matchers#exceptions
 //
-const verifyRequest = require('../src/exceptions');
-
-function compileAndroidCode() {
-    throw new Error("you are using the wrong JDK");
-}
+const { compileAndroidCode, verifyRequest } = require('../src/exceptions');
 
 test("compiling android goes as expected", () => {
     expect(compileAndroidCode).toThrow();

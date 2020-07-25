@@ -1,3 +1,10 @@
+
+//
+function compileAndroidCode() {
+    throw new Error("you are using the wrong JDK");
+}
+
+//
 function verifyRequest(request) {
     if (!request) {
         throw new Error("An input object is required.");
@@ -11,4 +18,4 @@ function verifyRequest(request) {
     return true
 }
 
-module.exports = verifyRequest;
+module.exports = { compileAndroidCode, verifyRequest };
