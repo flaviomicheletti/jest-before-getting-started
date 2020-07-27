@@ -32,8 +32,7 @@ describe("Mock Implementations", () => {
     });
 
     test('example 04', () => {
-        const myMockFn = jest
-            .fn(() => 'default')
+        const myMockFn = jest.fn(() => 'default')
             .mockImplementationOnce(() => 'first call')
             .mockImplementationOnce(() => 'second call');
 
